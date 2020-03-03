@@ -34,7 +34,7 @@ class Song
   def self.find_by_name(name)
       song = self.new
       song.name = name
-      song.name
+      song
   end
 
 end
