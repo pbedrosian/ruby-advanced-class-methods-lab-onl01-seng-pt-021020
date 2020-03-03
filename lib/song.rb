@@ -1,4 +1,3 @@
-require 'pry'
 class Song
 
   attr_accessor :name, :artist_name
@@ -22,8 +21,6 @@ class Song
   def new_by_name(test)
     test = self.new
     test.name = name
-    binding.pry
-
     test
   end
 
