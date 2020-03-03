@@ -22,9 +22,9 @@ class Song
   def new_by_name(test)
     test = self.new
     test.name = name
-    test
-
     binding.pry
+
+    test
   end
 
 end
