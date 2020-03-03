@@ -38,7 +38,6 @@ class Song
   def self.find_or_create_by_name(name)
     create_by_new(name) || find_by_name(name)
   end
-  end
 
 
 
